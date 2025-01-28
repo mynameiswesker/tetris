@@ -1594,6 +1594,7 @@ game = new Game(16,26)
 game.init_field()
 game.print_cell()
 
+//
 //исключаем нажатие на кнопку старт и стоп при нажатии на пробелл
 document.addEventListener('keydown', (event) => {
     if (event.code === 'Space' || event.code === 32) {
